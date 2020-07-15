@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_moviesearch"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/menu_moviesaerch" />
+        <item
+            android:id="@+id/nav_moviememoir"
+            android:icon="@drawable/ic_menu_watchlist"
+            android:title="@string/menu_moviememoir" />
+        <item
+            android:id="@+id/nav_watchlist"
+            android:icon="@drawable/ic_menu_moviesearch"
+            android:title="@string/menu_watchlist" />
+        <item
+            android:id="@+id/nav_reports"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/menu_reports" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_menu_map"
+            android:title="@string/menu_map" />
+    </group>
+</menu>

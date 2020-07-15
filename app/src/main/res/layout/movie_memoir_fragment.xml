@@ -1,0 +1,80 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.moviememoir.MovieMemoirFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/sort_watch_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:enabled="true"
+                    android:text="Watch Date"
+                    tools:ignore="HardcodedText" />
+                <Button
+                    android:id="@+id/sort_personal_rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:enabled="true"
+                    android:text="User Score"
+                    tools:ignore="HardcodedText" />
+                <Button
+                    android:id="@+id/sort_public_rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:enabled="true"
+                    android:text="Public Score"
+                    tools:ignore="HardcodedText" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ProgressBar
+                    android:id="@+id/loading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_gravity="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginLeft="30dp" />
+                <Spinner
+                    android:id="@+id/genre_filter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginStart="82dp"
+                    android:enabled="true"
+                    android:entries="@array/filter_genre"
+                    tools:ignore="HardcodedText"
+                    android:layout_marginLeft="24dp" />
+                <Button
+                    android:id="@+id/choose_genre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:enabled="true"
+                    android:text="Choose Genre"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+            <ListView
+                android:id="@+id/memoir_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

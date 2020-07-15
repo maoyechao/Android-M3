@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "838914857229",
+    "firebase_url": "https://geogle-api.firebaseio.com",
+    "project_id": "geogle-api",
+    "storage_bucket": "geogle-api.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:838914857229:android:bc1fe1569ba94dc3e5b844",
+        "android_client_info": {
+          "package_name": "com.example.m3app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "838914857229-cnbdma8hgr3h3bvvu83eiasob3bulqg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtJHXWWh3ueMD4Hwirw72bOeA7MMfL5Yk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "838914857229-cnbdma8hgr3h3bvvu83eiasob3bulqg6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
